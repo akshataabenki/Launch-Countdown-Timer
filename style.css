@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red hat text", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background: url(./images/bg-stars.svg), hsl(234, 17%, 12%);
+
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+main{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 100px;
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.countdown-container p {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(345, 95%, 68%);
+    background: hsl(236, 21%, 26%);
+    font-size: 70px;
+    border-radius: 15px;
+}
+
+h3{
+    color: hsl(237, 18%, 59%);
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+footer{
+    background: url(./images/pattern-hills.svg);
+    min-width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+@media(max-width:600px) {
+    .countdown-container p {
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+}
